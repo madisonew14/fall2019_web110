@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-     <title>Madison Woo: WEB110 Portal Website</title>
+     <title>Madison Woo: Contact Form</title>
   <meta charset="utf-8" />
   <meta name="robots" content="noindex,nofollow" />
   <meta name="viewport" content="width=device-width" />
@@ -10,7 +10,7 @@
  </head>
  <body>
      <header>
-     <h1>Madison Woo: WEB110 Portal Website</h1>
+     <h1>Madison Woo: Contact Form</h1>
      <nav class="topnav" id="myTopnav">
        <a href="index.html" class="active">Welcome</a>
        <a href="elements.html">HTML Elements</a>
@@ -20,22 +20,17 @@
         <a href="https://www.linkedin.com/learning/" target="_blank">LinkedIn Learning</a>
          <a href="flowchart.html">Flowchart</a>
        <a href="big/index.html">Final Project</a>
-       <a href="contact.php">Contact Madison</a>
+       <a href="contact.php" class="active">Contact Madison</a>
        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </nav>
      </header>
      
    <main class="wrapper">
      
-     <img class="desktop" src="images/desktop.jpg" alt="Photo of Madison in Seoul, South Korea" />
        
-     <img class="tablet" src="images/tablet.jpg" alt="Photo of chai tea and mini doughnuts" />
+       <h2 class="subheader">Madison Woo: Flowchart &amp; Flow Fidelity Layout</h2>
        
-     <img class="phone" src="images/phone.png" alt="Photo of an adorable cat" />
-       
-       <h2 class="subheader">About Me</h2>
-       
-       <p>Hi everyone! Welcome to my portal website. My name is Madison and I'm pursuing my web design certificate. I'm currently a graphic designer that works mostly with print and illustration, and want to gain experience with interactive design. When I'm not working, I'm usually working out, traveling, trying out new foods, and cuddling with my cat Felix!</p>
+       <p>Google Document will replace this navigation. On the doc produce a low fidelity flowchart and wireframes for my final project.</p>
            
      <footer>
       <p><small>&copy; 2019 by <a href="contact.php">Contact Madison </a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
