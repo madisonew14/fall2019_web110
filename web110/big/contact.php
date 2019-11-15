@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="css/big.css" />
   <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="forms.css" />
     <!-- jQuery -->
      <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <!-- MenuMaker Plugin -->
@@ -22,13 +23,14 @@
         <nav id="cssmenu">
           <ul>
              <li><a href="../index.html"><i class="fa fa-fw fa-institution"></i> WEB110</a></li>
-             <li><a href="gallery.html"><i class="fa fa-fw fa-home"></i> BIG Website</a></li>
+             <li><a href="index.html"><i class="fa fa-fw fa-home"></i> BIG Website</a></li>
             
             <!-- drop down menu for research pages -->
                <li><a href="#">Research Topics</a>
                 <ul>
                     <li><a href="smo.html"><i class="fa fa-fw fa-thumbs-o-up"></i> SMO</a></li>
                     <li><a href="accessibility.html"><i class="fa fa-fw fa-globe"></i> Accessibility</a></li>
+                    <li><a href="forms.html"><i class="fa fa-fw fa-check-square-o"></i> Forms</a>
                 </ul>
              </li>
              <li><a href="gallery.html"><i class="fa fa-fw fa-camera-retro"></i>Lightbox II Gallery</a></li>
@@ -47,9 +49,28 @@
        
         <section class="fullwidth">
             <h2 class="subheader">Contact Madison</h2>
-             <p>Watch the supporting instructional video to create contents of this page. </p>
-        </section>
+              <?php
+        /*
+         * Below are 2 different forms to be re-used       
+         * 
+         * Only use one at a time, comment out the other!       
+         *
+         */
 
+        include 'includes/contact_include.php'; #site keys & code here
+    
+        $toAddress = "madisonewoo@gmail.com";  //place your/your client's email address here
+        $toName = "Madison"; //place your client's name here
+        $website = "WEB110 Contact Form";  //place NAME of your client's website
+
+        echo loadContact('simple.php');#demonstrates a simple contact form
+        //echo loadContact('multiple.php');#demonstrates multiple form elements
+
+	?>
+        </section>
+        
+<!--contact php -->
+    
      <footer>
       <p><small>&copy; 2019 by <a href="contact.php">Contact Madison </a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
     </footer>
