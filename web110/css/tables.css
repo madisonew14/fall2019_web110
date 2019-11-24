@@ -1,5 +1,9 @@
 /* styles for tables */
 
+h3 {
+    text-align:center;
+}
+
 table {
     border-collapse: collapse;
     border: 1px solid #000;
@@ -21,4 +25,36 @@ td, th {
 thead tr {
     background-color: darkseagreen;
     
+}
+
+table.client th {
+    text-align:left;
+    width:30%;
+    background-color: #00394d;
+    color: white;
+}
+
+table.client td {
+    background-color: #fff;
+}
+
+table.client {
+    width: 80%;
+}
+
+table.audience th {
+    text-align:left;
+    width:33.3%;
+    background-color: darkgray;
+    font-weight: 400;
+}
+
+table.audience td {
+    vertical-align: baseline;
+    width:33.3%;
+    background-color: #fff;
+}
+
+table.audience {
+    width: 80%;
 }
